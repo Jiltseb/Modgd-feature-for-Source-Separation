@@ -1,6 +1,7 @@
 # Modgd-feature-for-Source-Separation
 Code to generate modgdgram as a feature for musical source separation, speech separation and speech enhancement
-
+The code receives input wavefile with specifications of FFT points, window length, window shift and the sampling rate.
+The output produces a modgdgram, which can be fed to a DRNN module instead of the magnitude spectrogram. 
 
 The details of the work are described in the website https://sites.google.com/site/groupdelayfeatureformusicbss/
 and paper https://ieeexplore.ieee.org/document/7746672
